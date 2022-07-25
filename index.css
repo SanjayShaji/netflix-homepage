@@ -1,0 +1,340 @@
+body{
+    background-color: #333;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+
+.poster{
+    position: relative;
+    height: 725px;
+    background-color: black;
+}
+
+.header{
+    /* border: 2px red solid; */
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+}
+
+.left-header{
+    color: red;
+    font-size: 20px;
+    height: 150px;
+    width: 76%;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px green solid; */
+}
+
+.logo{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+
+}
+.right-header{
+    /* margin-top: 20px; */
+    display: flex;
+    height: 90px;
+    background-color: transparent;
+}
+
+select{
+    color: white;
+    border-radius: 5px;
+}
+
+.language{
+    background: rgba(0,0,0,.4);
+    padding: 10px;
+    margin: 25px;
+    font-size: 15px;  
+    
+}
+
+.sign-in{
+    background-color: red;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 25px;
+    padding: 10px;
+    /* padding-right: 40px; */
+    color: white;
+    border: solid 1px red;
+    
+}
+
+.card{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 200px;
+}
+
+.card-content{
+    font-size: 30px;
+    color: white;
+}
+
+input{
+    font-size: 20px;
+    padding: 20px;
+    width: 500px;
+}
+
+.start{
+    font-size: 20px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+.img-poster{
+    /* z-index: 1; */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+/* ////////////////////////////////////////////////////////////// */
+
+.smart-tv-div{
+    position: relative;
+    height: 450px;
+    margin-top: 10px;
+    /* width: 100%; */
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.smart-tv-text{
+    /* border: 2px green solid; */
+    padding: 130px;
+    margin-left: 50px;
+    font-size: 22px;
+    width: 30%;
+    /* height: 100%; */
+}
+
+.smart-tv-image{
+    padding-left: 95px;
+    position: absolute;
+    z-index: 1;
+}
+
+.smart-tv-video{
+
+    margin: 68px;
+    padding-left: 90px;
+    position: absolute;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+
+
+.mobile-div{
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    /* border: 2px solid red; */
+}
+
+.mobile-pic{
+    /* border: 2px solid red; */
+    padding-left: 200px;
+    width: 450px;
+    height: 350px;
+}
+
+.box-short-container{
+    background-color: black;
+    position: absolute;
+    margin-left: 280px;
+    border: 2px solid grey;
+    width: 280px;
+    height: 80px;
+    border-radius: 10px;
+    bottom: 140px;
+}
+.box-short{
+    display: flex;
+    padding: 10px;
+    
+}
+.box-image{
+    padding-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.download{
+    /* margin: 20px; */
+    color: white;
+}
+
+.mobile-text{
+    margin-top: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+.download-icon{
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+.device-div{
+    position: relative;
+    display: flex;
+    background-color: black;
+    top: 10px;
+    height: 450px;
+    /* width: 100%; */
+
+}
+
+.device-text{
+    /* border: 2px solid green; */
+    padding: 150px;
+    margin-left: 50px;
+    font-size: 22px;
+    color: white;
+}
+
+
+.device-image{
+    position: absolute;
+    margin-top: 40px;
+    width: 470px;
+    height: 352px;
+    z-index: 1;
+}
+
+.device-video{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 80px;
+    bottom: 60px;
+}
+
+/* //////////////////////////////////////////////////////////////////// */
+
+.kids-div{
+    height: 400px;
+    display: flex;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.kids-image{
+    margin-left: 150px;
+    width: 465px;
+    height: 350px;
+}
+
+.kids-text{
+    margin-left: 100px;
+    font-size: 25px;
+    color: white;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+
+.questions-div{
+    /* text-align: center; */
+    background-color: black;
+    color: white;
+    height: 950px;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+
+}
+
+.questions-header{
+    text-align: center;
+    font-size: 25px;
+    /* border: 2px solid green; */
+    padding: 10px;
+}
+
+.questions{
+    margin-left: 300px;
+    width: 900px;
+    height: 600px;
+    /* border: 2px solid red; */
+}
+
+.quest{
+    border: 2px solid rgb(185, 170, 170);
+    margin: 10px;
+    padding: 20px;
+    height: 40px;
+    background-color: #303030;;
+}
+
+.q{
+    float: left;
+    font-size: 25px;
+}
+
+.plus{
+    font-size: 50px;
+    float: right;
+    /* background: transparent; */
+    cursor: pointer;
+
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+.footer{
+    height: 400px;
+    background-color: black;
+}
+
+.footer-content{
+    margin-left: 300px;
+    margin-top: 10px;
+    padding-top: 50px;
+    height: 320px;
+    width: 900px;
+    color: grey;
+    /* border: 2px solid red; */
+}
+
+.table{
+    width: 100%;
+    margin-top: 20px;
+}
+
+td{
+    font-size: 14px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img {
+    -webkit-user-drag: none;
+    }
+
